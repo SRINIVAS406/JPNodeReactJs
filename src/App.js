@@ -33,7 +33,7 @@ function App() {
             <About />
           </Route>
           <Route exact path="/">
-            <TextForm heading="Enter the text toa analyse"></TextForm>
+            <TextForm heading="Enter the text toa analyse."></TextForm>
           </Route>
         </Switch>
 
