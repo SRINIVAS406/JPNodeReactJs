@@ -1,3 +1,52 @@
+# Run below commands in ubuntu linux
+
+
+apt update
+
+sudo apt install nodejs
+
+node -v
+
+sudo node install npm
+
+sudo node install build package
+
+sudo apt install build package
+
+cd /
+
+cd opt
+
+mkdir jpnodeReactJs
+
+apt install git
+
+git --version
+
+cd jpnodeReactJs
+
+git init
+
+git clone https://github.com/SRINIVAS406/JPNodeReactJs.git
+
+git status
+
+cd JPNodeReactJs
+
+git status
+
+git branch -a //list of all branches
+
+git checkout master
+
+npm install -g node-modules
+
+npm install
+
+npm start
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
