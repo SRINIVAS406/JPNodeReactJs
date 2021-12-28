@@ -1,0 +1,26 @@
+{
+  "posts": [
+      {
+    "id":1,
+    "srcurl": "https://joinpath.in/BackgroundImages/blackboard.webp",
+    "title": "Wep App",
+    "shortDesc": "We build your buissiness app"
+  },
+  {
+    "id":2,
+    "srcurl": "https://joinpath.in/BackgroundImages/blackboard.webp",
+    "title": "Windows app",
+    "shortDesc": "We build software for you system"
+  }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

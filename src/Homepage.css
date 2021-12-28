@@ -1,0 +1,66 @@
+.wrapper {
+  /* position:relative; */
+  top:80px;
+  left:10%;
+    /* height: 100vh; */
+    /*This part is important for centering*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .wrapperCustom{
+    position: relative;
+  }
+  
+  .typing-demo {
+    color:white;
+    width: 8ch;
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight:bolder;
+    font-size: 5em;
+    position:absolute;
+      top:30%;
+      left:80px;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+      
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
+  .homeImg {
+    width:100%;
+  }
+
+  @media screen and (max-width: 992px) {
+    .typing-demo {
+      position:absolute;
+      top:40%;
+      left:80px;
+      font-size: 3em;
+    }
+    
+  }
+
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .typing-demo {
+      position:absolute;
+      top:30%;
+      left:auto;
+      font-size: 2em;
+    }
+   
+  }
