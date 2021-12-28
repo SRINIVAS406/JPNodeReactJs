@@ -1,7 +1,6 @@
 # Run below commands in ubuntu linux
 
-
-apt update
+apt update.
 
 sudo apt install nodejs
 
