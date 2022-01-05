@@ -8,13 +8,14 @@ export default function Navbar(props) {
     <div>
       <nav
         className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
+        style={{ marginTop: "0px", marginBottom: "0px" }}
       >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
             <img
               src={`${logo}`}
               alt="JoinPath"
-              style={{ height: "80px", marginLeft: "-10px" }}
+              style={{ height: "60px", marginLeft: "-10px" }}
             />
           </Link>
           <button
@@ -32,12 +33,22 @@ export default function Navbar(props) {
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
                 <Link className="nav-link mt-3" aria-current="page" to="/">
-                  <h3>Home</h3>
+                  <h4>Home</h4>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link className="nav-link mt-3" to="/about">
-                  <h3>{props.aboutText}</h3>
+                  <h4>{props.aboutText}</h4>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link mt-3" to="/team">
+                  <h4>Team</h4>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link mt-3" to="/services">
+                  <h4>Services</h4>
                 </Link>
               </li>
             </ul>

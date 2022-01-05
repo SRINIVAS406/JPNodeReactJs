@@ -12,7 +12,7 @@ export default function Foundercard({ fobj }) {
             <div
               className="front__face-photo fimg"
               style={{
-                backgroundImage: "url(" + `${fobj.imgUrl}` + ")",
+                backgroundImage: "url(" + `${fobj.imgUrl}` + " )",
               }}
             ></div>
             <div className="front__text">

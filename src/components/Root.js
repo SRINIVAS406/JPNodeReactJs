@@ -13,6 +13,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import HomePage from "./HomePage";
 import Foundercard from "./Foundercard";
 import Services from "./Services";
+import Orgtree from "./Orgtree";
 
 export default function Root() {
   //Founder Details
@@ -55,27 +56,38 @@ export default function Root() {
         aboutText="About"
         toggleMode={toggleMode}
       ></Navbar>
+
       <div className="">
+        {/* <About></About> */}
+
+        {/* Swith code */}
         <Switch>
-          <Route exact path="/about">
-            <About />
-          </Route>
           {/* <Route exact path="/">
             <CarouselObj />
           </Route> */}
           <Route exact path="/">
             <HomePage />
+            <Services></Services>
+            <div className="d-flex justify-content-around mb-5 founderCardH">
+              <Foundercard fobj={founderDesc[0]} />
+              <Foundercard fobj={founderDesc[1]} />
+              <Foundercard fobj={founderDesc[2]} />
+              <Foundercard fobj={founderDesc[3]} />
+              <Foundercard fobj={founderDesc[4]} />
+            </div>
+            <Orgtree />
+          </Route>
+          <Route exact path="/team">
+            <div id="ram"></div>
+            <Orgtree />
+          </Route>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          <Route exact path="/services">
+            <Services />
           </Route>
         </Switch>
-        <Services></Services>
-        <div className="d-flex justify-content-around mb-5 founderCardH">
-          <Foundercard fobj={founderDesc[0]} />
-          <Foundercard fobj={founderDesc[1]} />
-          <Foundercard fobj={founderDesc[2]} />
-          <Foundercard fobj={founderDesc[3]} />
-          <Foundercard fobj={founderDesc[4]} />
-        </div>
-        {/* <About></About> */}
       </div>
     </Router>
   );
