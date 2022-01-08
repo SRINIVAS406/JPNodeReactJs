@@ -14,6 +14,7 @@ import HomePage from "./HomePage";
 import Foundercard from "./Foundercard";
 import Services from "./Services";
 import Orgtree from "./Orgtree";
+import Createtreenode from "./Createtreenode";
 
 export default function Root() {
   //Founder Details
@@ -75,7 +76,6 @@ export default function Root() {
               <Foundercard fobj={founderDesc[3]} />
               <Foundercard fobj={founderDesc[4]} />
             </div>
-            <Orgtree />
           </Route>
           <Route exact path="/team">
             <div id="ram"></div>
@@ -86,6 +86,9 @@ export default function Root() {
           </Route>
           <Route exact path="/services">
             <Services />
+          </Route>
+          <Route exact path="/newfrd">
+            <Createtreenode />
           </Route>
         </Switch>
       </div>

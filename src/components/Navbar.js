@@ -8,7 +8,10 @@ export default function Navbar(props) {
     <div>
       <nav
         className={`navbar navbar-expand-lg navbar-${props.mode} bg-${props.mode}`}
-        style={{ marginTop: "0px", marginBottom: "0px" }}
+        style={{
+          marginTop: "0px",
+          marginBottom: "0px",
+        }}
       >
         <div className="container-fluid">
           <Link className="navbar-brand" to="/">
@@ -49,6 +52,11 @@ export default function Navbar(props) {
               <li className="nav-item">
                 <Link className="nav-link mt-3" to="/services">
                   <h4>Services</h4>
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link mt-3" to="/newfrd">
+                  <h4>New Friend</h4>
                 </Link>
               </li>
             </ul>
