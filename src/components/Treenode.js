@@ -11,15 +11,16 @@ export default function Treenode(props) {
     console.log("Show Elements:" + eleArr);
     for (let i = 0; i < allEle.length; i++) {
       var showNode = document.querySelector("." + allEle[i]);
-      showNode.style.display = "none";
+      if (showNode) showNode.style.display = "none";
     }
 
     let nodesLength;
     for (let i = 0; i < eleArr.length; i++) {
       // alert("I am here");
       var showNode = document.querySelector("." + eleArr[i]);
-      showNode.style.display = "";
-      nodesLength = document.querySelectorAll("." + eleArr[i] + " li").length;
+      if (showNode) showNode.style.display = "";
+      if (showNode)
+        nodesLength = document.querySelectorAll("." + eleArr[i] + " li").length;
       console.log("NodesLength:" + nodesLength);
     }
 
@@ -55,6 +56,14 @@ export default function Treenode(props) {
         <a href="#">
           <div className="orgTreecard" title={ch.role}>
             <div className="orgTreeheader">
+              <img
+                src={ch.imgurl ? ch.imgurl : "#"}
+                style={{
+                  width: "100px",
+                  height: "100px",
+                  borderRadius: "50px",
+                }}
+              />
               <h1>{ch.name}</h1>
             </div>
 
