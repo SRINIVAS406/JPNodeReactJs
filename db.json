@@ -9,14 +9,14 @@
           "id": "u1",
           "role": "Network Engineer",
           "imgurl":"https://scontent.fblr1-5.fna.fbcdn.net/v/t39.30808-6/270235048_4525093834286793_9202316833938428666_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=veVytEvOxbsAX_kqGwN&_nc_ht=scontent.fblr1-5.fna&oh=00_AT_aoL0rpuzeKXafFPxhn8Q-Hf4MBRnnwtiB2GfkjeGgCg&oe=61E858F9",
-          "exp": "4",
+          "email":"satish.rest@gmail.com","exp": "4",
           "refid": "1",
           "child": [
             {
               "name": "SatishC1",
               "id": "u1_u1",
               "role": "Network Engineer",
-              "exp": "4",
+              "email":"srinivas.itkikar@gmail.com","exp": "4",
               "refid": "u1",
               "child": []
             },
@@ -24,7 +24,7 @@
               "name": "SatishC2",
               "id": "u1_u2",
               "role": "Network Engineer",
-              "exp": "4",
+              "email":"srinivas.itkikar@gmail.com","exp": "4",
               "refid": "u1",
               "child": []
             },
@@ -32,7 +32,7 @@
               "name": "SatishC3",
               "id": "u1_u3",
               "role": "Network Engineer",
-              "exp": "4",
+              "email":"srinivas.itkikar@gmail.com","exp": "4",
               "refid": "u1",
               "child": []
             }
@@ -41,7 +41,7 @@
         {
           "name": "Shivshankar",
           "role": "PHP Developer",
-          "exp": "4.5",
+          "email":"srinivas.itkikar@gmail.com","exp": "4.5",
           "imgurl":"https://scontent.fblr1-3.fna.fbcdn.net/v/t31.18172-8/14054584_593884970783392_2553498533552504955_o.jpg?_nc_cat=107&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=vIUm8NbWqrgAX_8015J&_nc_ht=scontent.fblr1-3.fna&oh=00_AT9_H1jXM1BsSEVsdK78eO3gSltySEclwDsw3NeUvP-nXQ&oe=6202BADE",
           "id": "u2",
           "refid": "1",
@@ -50,7 +50,7 @@
               "name": "ShivshankarC1",
               "id": "u2_u1",
               "role": "Network Engineer",
-              "exp": "4",
+              "email":"srinivas.itkikar@gmail.com","exp": "4",
               "refid": "u2",
               "child": []
             },
@@ -58,7 +58,7 @@
               "name": "ShivshankarC2",
               "id": "u2_u2",
               "role": "Network Engineer",
-              "exp": "4",
+              "email":"srinivas.itkikar@gmail.com","exp": "4",
               "refid": "u2",
               "child": []
             }
@@ -68,7 +68,7 @@
           "name": "Srinivas",
           "role": "React Developer",
           "imgurl":"https://scontent.fblr1-6.fna.fbcdn.net/v/t31.18172-8/20988993_653845321489690_5295050026136813059_o.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=WlK-zcM4cm8AX_PRmQX&tn=uVT4S_SXGRirpYXl&_nc_ht=scontent.fblr1-6.fna&oh=00_AT9qkqz5n_VdKCr4Qtp4kHjlk_da6gxkQplAwipU-nUqQA&oe=62016597",
-          "exp": "5",
+          "email":"srinivas.itkikar@gmail.com","exp": "5",
           "id": "u3",
           "refid": "1",
           "child": [
@@ -76,7 +76,7 @@
               "name": "SrinivasC1",
               "id": "u3_u1",
               "role": "Network Engineer",
-              "exp": "4",
+              "email":"srinivas.itkikar@gmail.com","exp": "4",
               "refid": "u3",
               "child": []
             },
@@ -84,16 +84,8 @@
               "name": "SrinivasC2",
               "id": "u3_u2",
               "role": "Network Engineer",
-              "exp": "4",
+              "email":"srinivas.itkikar@gmail.com","exp": "4",
               "refid": "u3",
-              "child": []
-            },
-            {
-              "name": "Sriniavs",
-              "role": "Reddy",
-              "exp": "10",
-              "refid": "u3",
-              "id": "u3_u0",
               "child": []
             }
           ]
@@ -101,7 +93,7 @@
         {
           "name": "Swapnil",
           "role": "Business Analyst",
-          "exp": "6",
+          "email":"srinivas.itkikar@gmail.com","exp": "6",
           "imgurl":"https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/240735797_4155768337873294_8305076329794044365_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=pMZNomFHpJgAX9JfVds&_nc_ht=scontent.fblr1-4.fna&oh=00_AT_a2ZMi3HtUuv5bg4bRsOz4YtgkLXLi3tjSP4r2wGdN4A&oe=61E84785",
           "id": "u4",
           "refid": "1",
@@ -110,7 +102,7 @@
               "name": "SwapnilC1",
               "id": "u4_u1",
               "role": "Network Engineer",
-              "exp": "4",
+              "email":"srinivas.itkikar@gmail.com","exp": "4",
               "refid": "u4",
               "child": []
             },
@@ -118,7 +110,7 @@
               "name": "SwapnilC2",
               "id": "u4_u2",
               "role": "Network Engineer",
-              "exp": "4",
+              "email":"srinivas.itkikar@gmail.com","exp": "4",
               "refid": "u4",
               "child": []
             }
@@ -127,7 +119,7 @@
         {
           "name": "Vinod",
           "role": "Marketing",
-          "exp": "3",
+          "email":"srinivas.itkikar@gmail.com","exp": "3",
           "imgurl":"https://scontent.fblr1-4.fna.fbcdn.net/v/t39.30808-6/271851885_2979045829024383_6847464827884775443_n.jpg?_nc_cat=105&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=3yYZ6ax91jkAX_CvZR6&_nc_oc=AQmAJ6JJ9E8m_7dqoF7ZL2RqZQ7g30FDLZ6gk4aWmGIKOxo6fw83mKAMjGe7T_YC874&_nc_ht=scontent.fblr1-4.fna&oh=00_AT8RAEYwzADXl6KI4p-3w6ppkQM3K0ONVxa94Z-WhhALGA&oe=61E8BFF1",
           "id": "u5",
           "refid": "1",
@@ -136,7 +128,7 @@
               "name": "VinodC1",
               "id": "u5_u1",
               "role": "Network Engineer",
-              "exp": "4",
+              "email":"srinivas.itkikar@gmail.com","exp": "4",
               "refid": "u5",
               "child": []
             },
@@ -144,7 +136,7 @@
               "name": "VinodC2",
               "id": "u5_u2",
               "role": "Network Engineer",
-              "exp": "4",
+              "email":"srinivas.itkikar@gmail.com","exp": "4",
               "refid": "u5",
               "child": []
             }

@@ -64,7 +64,7 @@ export default function Treenode(props) {
                   borderRadius: "50px",
                 }}
               />
-              <h1>{ch.name}</h1>
+              <h3 class="mt-3">{ch.name}</h3>
             </div>
 
             <div className="container">
